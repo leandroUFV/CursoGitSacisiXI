@@ -12,9 +12,14 @@ int subtracao(int a, int b){
 	return sub_num;
 }
 
+int multiplicacao(int a, int b){
+	int mult_num = a*b;
+	return mult_num;
+}
+
 int main (){
 	printf("soma dos numeros: %d \n", soma(5,5));
 	printf("subtracao dos numeros: %d \n", subtracao(5,2));
-
+	printf("multiplicacao dos numeros: %d \n", multiplicacao(3,3));
 	return 0;
 }
